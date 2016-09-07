@@ -1,10 +1,6 @@
 /* eslint-disable import/prefer-default-export */
 
-import {
-  SET_LOCALE_START,
-  SET_LOCALE_SUCCESS,
-  SET_LOCALE_ERROR,
-} from '../constants';
+import { SET_LOCALE_START, SET_LOCALE_SUCCESS, SET_LOCALE_ERROR } from '../constants';
 
 const query = `
   query ($locale:String!) {
@@ -16,7 +12,7 @@ const query = `
 `;
 
 export function setLocale({ locale }) {
-  return async (dispatch, getState, { graphqlRequest }) => {
+  return async(dispatch, getState, { graphqlRequest }) => {
     dispatch({
       type: SET_LOCALE_START,
       payload: {

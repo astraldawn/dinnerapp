@@ -1,7 +1,7 @@
 [
   {
     "id": "header.banner.desc",
-    "defaultMessage": "Complex web apps made easy",
+    "defaultMessage": "Hopefully this template works better",
     "message": "",
     "description": "Description in header",
     "files": [
@@ -10,7 +10,7 @@
   },
   {
     "id": "header.banner.title",
-    "defaultMessage": "React",
+    "defaultMessage": "dinnerApp",
     "message": "",
     "description": "Title in page header",
     "files": [
@@ -19,7 +19,7 @@
   },
   {
     "id": "header.brand",
-    "defaultMessage": "Your Company Brand",
+    "defaultMessage": "adorable zombies",
     "message": "",
     "description": "Brand name displayed in header",
     "files": [
