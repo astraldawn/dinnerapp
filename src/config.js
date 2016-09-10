@@ -30,6 +30,7 @@ export const auth = {
 
   jwt: { secret: process.env.JWT_SECRET || 'React Starter Kit' },
 
+  // MUST REPLACE WITH OUR OWN TOKENS
   // https://developers.facebook.com/
   facebook: {
     id: process.env.FACEBOOK_APP_ID || '186244551745631',
